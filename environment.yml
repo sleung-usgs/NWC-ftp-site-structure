@@ -1,0 +1,15 @@
+name: NWC-ftp-site-structure
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8.8
+  - numpy
+  - matplotlib
+  - pandas
+  - jupyterlab
+  - jupyterlab-git # extensions available via conda go here
+  - jupyterlab_vim
+  - nodejs
